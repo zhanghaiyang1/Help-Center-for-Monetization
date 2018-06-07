@@ -41,7 +41,7 @@ Click the "DOCS" tab on the dashboard, then you can see the SDK integration docu
 
 ### 3 Acquiring Data
 
-##### 3.1 You can query data of each AdUnit and APP in the "REPORT" tab on the dashboard.
+##### 3.1 You can query data of each AdUnit and APP in the "Report" tab on the dashboard.
 
 ![“3.1”页面](imgs/3.1.png)
 
