@@ -1,13 +1,13 @@
 ### Index
-1. APPs and AdUnit Management
+1. Apps and AdUnit Management
 2. Integration Documents and Help Documents
 3. Report
 4. Financial Management
 
-### 1 APPs and AdUnit Management
-We will introduce what developers need to do after logging in. The introduction including apps, AdUnit, acquiring data and financial management.
+### 1 Apps and AdUnit Management
+We will introduce what developers need to do after logging in. The introduction including Apps, AdUnit, acquiring data and financial management.
 
-##### 1.1 You can check all application information under your account in "Application Management" tab on the Dashboard. You can create an APP by selecting "ADD NEW APP" on this page.
+##### 1.1 You can check all application information under your account in "Application Management" tab on the Dashboard. You can create an App by selecting "ADD NEW APP" on this page.
 
 ![“1.1”页面](imgs/1.1.png)
 
@@ -17,15 +17,15 @@ We will introduce what developers need to do after logging in. The introduction 
 
 ![Google Play](imgs/1212en.png)
 
-##### 1.2 Fill in the APP information form and then click the "ADD" button, then you will go back to the "Application Management" page.
+##### 1.2 Fill in the App information form and then click the "ADD" button, then you will go back to the "Application Management" page.
 
 ![“1.2”页面](imgs/1.2.png)
 
-*Category: Please choose the accurate category your APP belongs to, so that we can choose more suitable Ads for your APP.*
+*Category: Please choose the accurate category your App belongs to, so that we can choose more suitable Ads for your App.*
 
-*Bundle ID/Package Name: The package name shall not be modified once you saved.*
+*Bundle ID/Package Name: The package name shall not be modified once you save it.*
 
-*Download URL: If your APP has been in several application markets, choose one of them.*
+*Download URL: If your App has been in several application markets, choose one of them.*
 
 ##### 1.3 To create new AdUnit, you can click the "Add New AdUint" button, which is in both "Application Management" tab and "AdUnit Management" tab.
 
@@ -47,7 +47,7 @@ Click the "DOCS" tab on the dashboard, then you can see the SDK integration docu
 
 ### 3 Report
 
-##### 3.1 You can query data of each AdUnit and APP in the "Report" tab on the dashboard.
+##### 3.1 You can query data of each AdUnit and App in the "Report" tab on the dashboard.
 
 ![“3.1”页面](imgs/3.1.png)
 
