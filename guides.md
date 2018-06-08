@@ -1,7 +1,7 @@
 ### Index
 1. APPs and AdUnit Management
 2. Integration Documents and Help Documents
-3. Acquiring Data
+3. Report
 4. Financial Management
 
 ### 1 APPs and AdUnit Management
@@ -10,6 +10,12 @@ We will introduce what developers need to do after logging in. The introduction 
 ##### 1.1 You can check all application information under your account in "Application Management" tab on the Dashboard. You can create an APP by selecting "ADD NEW APP" on this page.
 
 ![“1.1”页面](imgs/1.1.png)
+
+##### 1.2.1 If your application has been released in App Store or Google Play, you can fill in the download URL (App Store) or Package name (Google), and then click the "SEARCH" button. We will help you complete the application information.
+
+![App Store](imgs/1211en.png)
+
+![Google Play](imgs/1212en.png)
 
 ##### 1.2 Fill in the APP information form and then click the "ADD" button, then you will go back to the "Application Management" page.
 
@@ -39,7 +45,7 @@ Click the "DOCS" tab on the dashboard, then you can see the SDK integration docu
 
 ![“2”页面](imgs/2.png)
 
-### 3 Acquiring Data
+### 3 Report
 
 ##### 3.1 You can query data of each AdUnit and APP in the "Report" tab on the dashboard.
 
