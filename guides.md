@@ -5,7 +5,7 @@
 
 3. [Report](#3-Report)
 
-4. [Financial Management](#4-Financila-Management)
+4. [Financial Management](#4-Financial-Management)
 
 ### 1 Apps and AdUnit Management
 We will introduce what developers need to do after logging in. The introduction including Apps, AdUnit, acquiring data and financial management.
