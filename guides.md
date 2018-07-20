@@ -1,5 +1,5 @@
 ### Index
-1. [Apps and AdUnit Management](#1-Apps-and-AdUnit-Management)
+1. [Apps and AdUnit Management](#1%20Apps%20and%20AdUnit%20Management)
 
 2. [Integration Documents and Help Documents](#2-Integration-Documents-and-Help-Documents)
 
