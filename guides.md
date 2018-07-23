@@ -1,5 +1,5 @@
 ### Index
-1. [Apps and AdUnit Management](#jump)
+1. [Apps and AdUnit Management](#1-apps-and-adunit-management)
 
 2. [Integration Documents and Help Documents](#2-Integration-Documents-and-Help-Documents)
 
@@ -7,7 +7,7 @@
 
 4. [Financial Management](#4-Financial-Management)
 
-### <span id="jump">1 Apps and AdUnit Management</span>
+### 1 Apps and AdUnit Management
 We will introduce what developers need to do after logging in. The introduction including Apps, AdUnit, acquiring data and financial management.
 
 ##### 1.1 You can check all application information under your account in "Application Management" tab on the Dashboard. You can create an App by selecting "ADD NEW APP" on this page.
