@@ -86,9 +86,9 @@ developer_account_id | string | form | 是 | 开发者id
 os					 | string | form | 是 | ios/android 
 name | string | form | 是 | 100字符以内
 package_name | string | form | 是 | 100字符以内
-category | string | form | 否 | 若填值，必须是指定的类型
+category | string | form | 否 | 若填值，必须是指定的类型，参照第4部分英文
 download_url | string | form | 否 | 若填值，必须是http/https链接
-app_store | string | form | 是 | 必须是以下列列表中的值
+app_store | int | form | 是 | 必须是以下列列表中的值，参照第5部分对应id
 
 
 
@@ -140,3 +140,59 @@ remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符�
         }
 }
 ```
+
+# 4. 应用分类
+
+### 4.1 列表
+应用类别 | Category 
+---|---
+动作游戏|Action
+益智解谜|Puzzle
+卡牌游戏|Card
+休闲|Casual
+冒险游戏|Adventure
+角色扮演游戏|Role-playing
+策略游戏|Strategy game
+街机游戏|Arcade
+儿童|Kids
+竞速游戏|Racing
+聚会游戏|Family
+模拟游戏|Simulation
+体育|Sports
+文字游戏|Word
+问答游戏|Trivia
+音乐|Music
+桌面游戏|Board
+赌场|Casino
+教育|Education
+
+# 5. 应用商店
+
+### 5.1 列表
+应用商店 | Store 
+---|---
+50 | App Store
+1 | Google play
+2 | Application of Treasure
+3 | Baidu Handset Assistant
+4 | 360 Handset Assistant
+5 | Wandoujia
+6 | Kupai Application Store
+7 | Anzhi
+8 | HUAWEI Application Store
+9 | 91 Assistants
+10 | 10086
+11 | PP Assistants
+12 | UC Game Center
+13 | 189 Store
+14 | GFan
+15 | Zhuoyi Market
+16 | Mi
+17 | MEIZU Application Store
+18 | Lenovo Mobile Market
+19 | Jinli Software Store
+20 | OPPO Software Store
+21 | Jinli Game Center
+22 | VIVO
+26 | Others
+
