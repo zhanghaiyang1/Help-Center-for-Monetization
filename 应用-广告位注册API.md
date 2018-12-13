@@ -81,7 +81,7 @@ url | method | 说明
 ### 2.2 请求参数
 
 字段 | 数据类型 | 位置 | 是否 | 必填说明
----|---|--|--
+---|---|--|--|--
 developer_account_id | string | form | 是 | 开发者id
 os					 | string | form | 是 | ios/android 
 name | string | form | 是 | 100字符以内
@@ -116,7 +116,7 @@ url | method | 说明
 ### 3.2 请求参数
 
 字段 | 数据类型 | 位置 | 是否 | 必填说明
----|---|--|--
+---|---|--|--|--
 developer_account_id | string | form | 是 | 开发者id
 name | string | form | 是 | 100字符以内
 app_id					 | string | form | 是 | 所属应用id
