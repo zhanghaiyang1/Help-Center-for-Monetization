@@ -86,9 +86,10 @@ developer_account_id | string | form | 是 | 开发者id
 os					 | string | form | 是 | ios/android 
 name | string | form | 是 | 100字符以内
 package_name | string | form | 是 | 100字符以内
-category | string | form | 否 | 若填值，必须是指定的类型，参照第4部分英文
+category | string | form | 是 | 必须是指定的类型，参照第4部分英文
 download_url | string | form | 否 | 若填值，必须是http/https链接
 app_store | int | form | 是 | 必须是以下列列表中的值，参照第5部分对应id
+industry_filter | string | form | 否 | 若填值，必须是以下列列表中的值，参照第4部分对应id
 
 
 
@@ -100,7 +101,7 @@ app_store | int | form | 是 | 必须是以下列列表中的值，参照第5部
     "error": "",
     "data": 
         {
-            "guid": "80183BCF-6B19-0C8D-AC00-112DA4AEF846"
+            "app_id": "80183BCF-6B19-0C8D-AC00-112DA4AEF846"
         }
 }
 ```
@@ -121,7 +122,7 @@ developer_account_id | string | form | 是 | 开发者id
 name | string | form | 是 | 100字符以内
 app_id					 | string | form | 是 | 所属应用id
 ad_type					 | int | form | 是 | 需为系统中的广告形式，1：插屏，3：原生，4：激励视频，需要校验接口中的值，值不正确时注册失败
-can_skiped | int | form | 否 | 当广告形式为激励视频时，此字段必填，0：不可跳过，1：可跳过，需要校验接口中的值，值不正确时注册失败
+can_be_skipped | int | form | 否 | 当广告形式为激励视频时，此字段必填，0：不可跳过，1：可跳过，需要校验接口中的值，值不正确时注册失败
 render_method | int | form | 否 | 当广告形式为原生时，此字段必填，1：托管渲染，2：自渲染，需要校验接口中的值，值不正确时注册失败
 render_style | string | form | 否 | 当广告形式为原生时，此字段必填，值为：DF0641C3-B89B-AE2E-52E3-33E89ADB6BC1，需要校验接口中的值，值不正确时注册失败
 remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符号算作一个字符
@@ -136,7 +137,7 @@ remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符�
     "error": "",
     "data": 
         {
-            "guid": "80183BCF-6B19-0C8D-AC00-112DA4AEF846"
+            "ad_unit_id": "80183BCF-6B19-0C8D-AC00-112DA4AEF846"
         }
 }
 ```
@@ -169,30 +170,30 @@ remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符�
 # 5. 应用商店
 
 ### 5.1 列表
-应用商店 | Store 
----|---
-50 | App Store
-1 | Google play
-2 | Application of Treasure
-3 | Baidu Handset Assistant
-4 | 360 Handset Assistant
-5 | Wandoujia
-6 | Kupai Application Store
-7 | Anzhi
-8 | HUAWEI Application Store
-9 | 91 Assistants
-10 | 10086
-11 | PP Assistants
-12 | UC Game Center
-13 | 189 Store
-14 | GFan
-15 | Zhuoyi Market
-16 | Mi
-17 | MEIZU Application Store
-18 | Lenovo Mobile Market
-19 | Jinli Software Store
-20 | OPPO Software Store
-21 | Jinli Game Center
-22 | VIVO
-26 | Others
+应用商店 | Store | 中文
+---|--- | ---
+50 | App Store | 苹果
+1 | Google play	 | 谷歌
+2 | Application of Treasure | 应用宝
+3 | Baidu Handset Assistant | 百度应用商店
+4 | 360 Handset Assistant | 360手机助手
+5 | Wandoujia | 豌豆荚
+6 | Kupai Application Store | 酷派应用商店
+7 | Anzhi | 安智
+8 | HUAWEI Application Store | 华为应用市场
+9 | 91 Assistants | 91助手
+10 | 10086 | 移动MM
+11 | PP Assistants | PP助手
+12 | UC Game Center | UC游戏中心
+13 | 189 Store | 天翼空间
+14 | GFan | 机锋市场
+15 | Zhuoyi Market | 卓易市场
+16 | Mi | 小米应用商店
+17 | MEIZU Application Store | 魅族应用商店
+18 | Lenovo Mobile Market | 联想乐商店
+19 | Jinli Software Store | 金立软件商店
+20 | OPPO Software Store | OPPO软件商店
+21 | Jinli Game Center | 金立游戏大厅
+22 | VIVO | 微喔
+26 | Others | 其他
 
