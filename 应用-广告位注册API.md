@@ -80,16 +80,16 @@ url | method | 说明
 
 ### 2.2 请求参数
 
-字段 | 数据类型 | 位置 | 是否 | 必填说明
+字段 | 数据类型 | 是否 | 必填说明
 ---|---|--|--|--
-developer_account_id | string | form | 是 | 开发者id
-os					 | string | form | 是 | ios/android 
-name | string | form | 是 | 100字符以内
-package_name | string | form | 是 | 100字符以内
-category | string | form | 是 | 必须是指定的类型，参照第4部分英文
-download_url | string | form | 否 | 若填值，必须是http/https链接
-app_store | int | form | 是 | 必须是以下列列表中的值，参照第5部分对应id
-industry_filter | string | form | 否 | 若填值，必须是以下列列表中的值，参照第4部分对应id
+developer_account_id | string |  是 | 开发者id
+os					 | string |  是 | 操作系统，ios/android 
+name | string |  是 | 应用名称，100字符以内
+package_name | string |  是 | 包名，100字符以内
+category | string |  是 | 分类，必须是指定的类型，参照第4部分英文
+download_url | string |  否 | 下载地址，若填值，必须是http/https链接
+app_store | int |  是 | 应用商店，必须是以下列列表中的值，参照第5部分对应id
+industry_filter | string |  否 | 屏蔽行业，若填值，必须是以下列列表中的值，参照第4部分对应id
 
 
 
@@ -116,16 +116,16 @@ url | method | 说明
 
 ### 3.2 请求参数
 
-字段 | 数据类型 | 位置 | 是否 | 必填说明
+字段 | 数据类型 | 是否 | 必填说明
 ---|---|--|--|--
-developer_account_id | string | form | 是 | 开发者id
-name | string | form | 是 | 100字符以内
-app_id					 | string | form | 是 | 所属应用id
-ad_type					 | int | form | 是 | 需为系统中的广告形式，1：插屏，3：原生，4：激励视频，需要校验接口中的值，值不正确时注册失败
-can_be_skipped | int | form | 否 | 当广告形式为激励视频时，此字段必填，0：不可跳过，1：可跳过，需要校验接口中的值，值不正确时注册失败
-render_method | int | form | 否 | 当广告形式为原生时，此字段必填，1：托管渲染，2：自渲染，需要校验接口中的值，值不正确时注册失败
-render_style | string | form | 否 | 当广告形式为原生时，此字段必填，值为：DF0641C3-B89B-AE2E-52E3-33E89ADB6BC1，需要校验接口中的值，值不正确时注册失败
-remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符号算作一个字符
+developer_account_id | string |  是 | 开发者id
+name | string |  是 | 广告位名称，100字符以内
+app_id					 | string |  是 | 所属应用id
+ad_type					 | int |  是 | 广告类型，需为系统中的广告形式，1：插屏，3：原生，4：激励视频，需要校验接口中的值，值不正确时注册失败
+can_be_skipped | int |  否 | 是否可以跳过，当广告形式为激励视频时，此字段必填，0：不可跳过，1：可跳过，需要校验接口中的值，值不正确时注册失败
+render_method | int |  否 | 渲染方式，当广告形式为原生时，此字段必填，1：托管渲染，2：自渲染，需要校验接口中的值，值不正确时注册失败
+render_style | string |  否 | 渲染样式，当广告形式为原生时，此字段必填，值为：DF0641C3-B89B-AE2E-52E3-33E89ADB6BC1，需要校验接口中的值，值不正确时注册失败
+remark | string |  否 | 备注，500字符以内
 
 
 
@@ -194,6 +194,6 @@ remark | string | form | 否 | 500字符以内，一个汉字/字母/标点符�
 19 | Jinli Software Store | 金立软件商店
 20 | OPPO Software Store | OPPO软件商店
 21 | Jinli Game Center | 金立游戏大厅
-22 | VIVO | 微喔
-26 | Others | 其他
+22 | VIVO | VIVO
+26 | Others | 其它
 
