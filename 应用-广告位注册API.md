@@ -9,8 +9,8 @@ developer_id | string |  是 | 开发者id
 os					 | string |  是 | 操作系统，ios/android 
 name | string |  是 | 应用名称，100字符以内
 package_name | string |  是 | 包名，100字符以内
-category | string |  是 | 分类，必须是指定的类型，参照第4部分英文
-app_store | int |  是 | 应用商店，必须是以下列列表中的值，参照第5部分对应id
+industry_ud | string |  是 | 行业id，必须是指定的类型，参照第3部分英文，根据英文转换成对应的id例如：36FBA1A1-C5E7-D9F6-9170-9BA0DA13CBF9
+app_store | int |  是 | 应用商店，必须是以下列列表中的值，参照第4部分对应id，存储id值
 im_app_id | string |  是 | im应用id
 package_filter| string |  是 | 黑名单、取自己的包名
 
@@ -27,7 +27,6 @@ developer_id | string |  是 | 开发者id
 name | string |  是 | 广告位名称，100字符以内
 app_id					 | string |  是 | 所属应用id
 ad_type					 | int |  是 | 广告类型，需为系统中的广告形式，1：插屏，3：原生，4：激励视频，需要校验接口中的值，值不正确时注册失败
-
 package_filter	 | string |  是 | 	所属应用的包名
 render_method | int |  否 | 渲染方式，当广告形式为原生时，此字段必填，1：托管渲染，2：自渲染，需要校验接口中的值，值不正确时注册失败
 render_style | string |  否 | 渲染样式，当广告形式为原生时，此字段必填，值为：DF0641C3-B89B-AE2E-52E3-33E89ADB6BC1，需要校验接口中的值，值不正确时注册失败
@@ -35,7 +34,7 @@ render_style | string |  否 | 渲染样式，当广告形式为原生时，此�
 
 
 
-# 4. 应用分类
+# 3. 应用分类
 
 ### 4.1 列表
 应用类别 | Category 
@@ -60,7 +59,7 @@ render_style | string |  否 | 渲染样式，当广告形式为原生时，此�
 赌场|Casino
 教育|Education
 
-# 5. 应用商店
+# 4. 应用商店
 
 ### 5.1 列表
 应用商店 | Store | 中文
