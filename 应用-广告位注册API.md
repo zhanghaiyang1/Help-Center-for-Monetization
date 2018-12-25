@@ -9,7 +9,7 @@ developer_id | string |  是 | 开发者id
 os					 | string |  是 | 操作系统，ios/android 
 name | string |  是 | 应用名称，100字符以内
 package_name | string |  是 | 包名，100字符以内
-industry_ud | string |  是 | 行业id，必须是指定的类型，参照第3部分英文，根据英文转换成对应的id例如：36FBA1A1-C5E7-D9F6-9170-9BA0DA13CBF9
+industry_id | string |  是 | 行业id，必须是指定的类型，参照第3部分英文，根据英文转换成对应的id例如：36FBA1A1-C5E7-D9F6-9170-9BA0DA13CBF9
 app_store | int |  是 | 应用商店，必须是以下列列表中的值，参照第4部分对应id，存储id值
 im_app_id | string |  是 | im应用id
 package_filter| string |  是 | 黑名单、取自己的包名
