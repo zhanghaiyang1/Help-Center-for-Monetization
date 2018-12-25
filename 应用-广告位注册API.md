@@ -4,7 +4,7 @@
 ### 1. 添加应用
 
 字段 | 数据类型 | 是否 | 必填说明 | 对应IM字段
----|---|--|--
+---|---|--|--|--
 developer_id | string |  是 | 开发者id | token
 os					 | string |  是 | 操作系统，ios/android |	os_type
 name | string |  是 | 应用名称，100字符以内 | app_name
@@ -22,7 +22,7 @@ package_filter| string |  是 | 黑名单、取自己的包名|bundle_id
 
 
 字段 | 数据类型 | 是否 | 必填说明 | 对应IM字段
----|---|--|--
+---|---|--|--|--
 developer_id | string |  是 | 开发者id|token
 im_unit_id | string |  是 | im广告位id|ad_unit_id
 name | string |  是 | 广告位名称，100字符以内|
